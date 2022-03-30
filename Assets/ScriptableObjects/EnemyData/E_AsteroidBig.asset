@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e87dc915d222de41b58848f5e4c0c68, type: 3}
+  m_Name: E_AsteroidBig
+  m_EditorClassIdentifier: 
+  name: Big Asteroid
+  isAsteroid: 1
+  enemyPrefab: {fileID: 6916024256706893230, guid: 63f9de07900a34f43a25b58b0d1b01fb,
+    type: 3}
+  particlesPrefab: {fileID: 467726099773153709, guid: 0a7a5144e730e454c9ff1d23f27c59c6,
+    type: 3}
+  probabilityValue: 35
+  numberOfInstances: 50
+  spaceInPool: 2
+  enemyContainer: {fileID: 0}
+  probabilityStartValue: 35
+  probabilityIncreaseValue: 10
+  maxProbabilityIncreaseValue: 20
+  probabilityDescreaseValue: 50
+  restrictedRounds: 0
+  probabilityIncreaseLevelUpValue: 0

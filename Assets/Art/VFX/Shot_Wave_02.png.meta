@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: 3555be6010a09ed488516b7ad0db5e8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7818748896054367734
+    second: Shot_Wave_02_0
+  - first:
+      213: -4972872547944954443
+    second: Shot_Wave_02_1
+  - first:
+      213: 253729247394341142
+    second: Shot_Wave_02_2
+  - first:
+      213: -5888821577207965078
+    second: Shot_Wave_02_3
+  - first:
+      213: -2040842933575229779
+    second: Shot_Wave_02_4
+  - first:
+      213: 3703740471444555086
+    second: Shot_Wave_02_5
+  - first:
+      213: -546969586091891905
+    second: Shot_Wave_02_6
+  - first:
+      213: 6381313642904681149
+    second: Shot_Wave_02_7
+  - first:
+      213: 5778644663726931368
+    second: Shot_Wave_02_8
+  - first:
+      213: -9129654038463707747
+    second: Shot_Wave_02_9
+  - first:
+      213: -6794519493320430450
+    second: Shot_Wave_02_10
+  - first:
+      213: -5306335189811492165
+    second: Shot_Wave_02_11
+  - first:
+      213: 5492812521492202450
+    second: Shot_Wave_02_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shot_Wave_02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 38
+        height: 72
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0aa3b6fd493e7390800000000000000
+      internalID: -7818748896054367734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Wave_02_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 44
+        width: 19
+        height: 31
+      alignment: 9
+      pivot: {x: 0.21052632, y: 0.48387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5037ad3ceccfab0800000000000000
+      internalID: -4972872547944954443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Wave_02_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 35
+        width: 22
+        height: 48
+      alignment: 9
+      pivot: {x: 0.045454547, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611211cf76d658300800000000000000
+      internalID: 253729247394341142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Wave_02_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 35
+        width: 24
+        height: 47
+      alignment: 9
+      pivot: {x: 0.16666667, y: 0.5106383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a1dd0d9f3b64ea0800000000000000
+      internalID: -5888821577207965078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Wave_02_4
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 49
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0.23076925, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daed1ed2a287da3e0800000000000000
+      internalID: -2040842933575229779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Wave_02_5
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 55
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45c0b4e554566330800000000000000
+      internalID: 3703740471444555086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Wave_02_6
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 35
+        width: 9
+        height: 46
+      alignment: 9
+      pivot: {x: 0.11111111, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33ec063f06c868f0800000000000000
+      internalID: -546969586091891905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Wave_02_7
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 7
+        width: 39
+        height: 99
+      alignment: 9
+      pivot: {x: 0.051282052, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaffa5d2fafe8850800000000000000
+      internalID: 6381313642904681149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Wave_02_8
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 7
+        width: 48
+        height: 104
+      alignment: 9
+      pivot: {x: 0.041666668, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad76a084bed13050800000000000000
+      internalID: 5778644663726931368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Wave_02_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 4
+        width: 53
+        height: 112
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d950923e504fc4180800000000000000
+      internalID: -9129654038463707747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Wave_02_10
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 0
+        width: 53
+        height: 118
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c2b2d058405b1a0800000000000000
+      internalID: -6794519493320430450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Wave_02_11
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 0
+        width: 52
+        height: 118
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba8120524c1c56b0800000000000000
+      internalID: -5306335189811492165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

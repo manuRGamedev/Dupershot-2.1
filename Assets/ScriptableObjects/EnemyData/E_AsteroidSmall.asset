@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e87dc915d222de41b58848f5e4c0c68, type: 3}
+  m_Name: E_AsteroidSmall
+  m_EditorClassIdentifier: 
+  name: Small Asteroid
+  isAsteroid: 1
+  enemyPrefab: {fileID: 6916024256706893230, guid: 7c34e78b86b23c740b7f9bcdeffba082,
+    type: 3}
+  particlesPrefab: {fileID: 467726099773153709, guid: a40af8200680e5740b2c7f8d316a8908,
+    type: 3}
+  probabilityValue: 50
+  numberOfInstances: 50
+  enemyContainer: {fileID: 0}
+  probabilityStartValue: 50
+  probabilityIncreaseValue: 1
+  maxProbabilityIncreaseValue: 20
+  probabilityDescreaseValue: 50
+  restrictedRounds: 0
+  probabilityIncreaseLevelUpValue: 0.5

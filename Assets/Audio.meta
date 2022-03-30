@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Audio.meta
+<<<<<<< Updated upstream:Assets/Script.meta
+<<<<<<< HEAD
+guid: 7ce01590e94b6c3469536b9a08dce520
+=======
+guid: 58380ae154384bc40920745a0d25fab5
+>>>>>>> Art
+=======
+guid: 69e1bead1567462409ac84e304e5fc96
+>>>>>>> Stashed changes:Assets/Audio.meta
+========
+guid: 654c4bc4a34698e449c71b46861991a9
+>>>>>>>> 5e9d0c114b966ef307b8581d6141cd218c4e825d:Assets/Script.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

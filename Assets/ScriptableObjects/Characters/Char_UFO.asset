@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c950a33693b476941afe7b07f1e0cbf3, type: 3}
+  m_Name: Char_UFO
+  m_EditorClassIdentifier: 
+  name: Ufete
+  description: "Ufete es el UFO tufete.\nLas descripciones est\xE1n por decidir,
+    as\xED que de momento solo hay tonter\xEDas que se nos han ocurrido."
+  unlockCondition: Achieve a super duper highscore to reveal this champ.
+  displaySprite: {fileID: 21300000, guid: b0316b2ab763b944496e181d6197b7cf, type: 3}
+  lockedSprite: {fileID: 0}
+  inGameAnimator: {fileID: 22100000, guid: e30fab016497ed348ae0e533dc5b560f, type: 2}
+  isUnlocked: 1
+  unlockConditionType: 6
+  unlockConditionGoal: 1

@@ -1,0 +1,346 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1567343292423343887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1567343292423343885}
+  - component: {fileID: 1567343292423343886}
+  - component: {fileID: 1567343292423343884}
+  m_Layer: 0
+  m_Name: AUDIO MANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1567343292423343885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567343292423343887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1567343292423343886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567343292423343887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4508a6111eed4e745b3101176a6a5047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundtrackCollections:
+  - colectionName: Menu
+    soundtracks:
+    - clip: {fileID: 8300000, guid: bd2b1b17bacce4a4c880261e89f7cf28, type: 3}
+      volume: 1
+      loopAmount: 1
+  - colectionName: Game
+    soundtracks:
+    - clip: {fileID: 8300000, guid: df1d1026f8ff9034e987ebde997cebc2, type: 3}
+      volume: 0.7
+      loopAmount: 1
+    - clip: {fileID: 8300000, guid: 0c6d49f0a3b834e46a7103e5e837d58e, type: 3}
+      volume: 0.7
+      loopAmount: 1
+    - clip: {fileID: 8300000, guid: 2a9fa107a03fcbf4fbf4de7513be4569, type: 3}
+      volume: 0.7
+      loopAmount: 2
+  collectionTransitionTime: 2
+  songTransitionTime: 2
+  isMusicPlaying: 1
+  soundCollections:
+  - colectionName: Shot
+    sounds:
+    - clip: {fileID: 8300000, guid: cb8a17caeea77fb43802e8f601eafc34, type: 3}
+      volume: 0.75
+      pitch: 1.15
+      randomPitchVariation: 0.35
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Dupershot Charge
+    sounds:
+    - clip: {fileID: 8300000, guid: 9f9ee35d5c0822640a98878e64bbd200, type: 3}
+      volume: 1
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Dupershot Release
+    sounds:
+    - clip: {fileID: 8300000, guid: 60c0442b9ca6b42489985bd4b96038ce, type: 3}
+      volume: 1
+      pitch: 1.35
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Dupershot Eco
+    sounds:
+    - clip: {fileID: 8300000, guid: b1b0ddcbec9baed4f84e17b4ad7270e1, type: 3}
+      volume: 1
+      pitch: 0.7
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Start Overload
+    sounds:
+    - clip: {fileID: 8300000, guid: bf373c0dc13ae964da06714f8749a6c8, type: 3}
+      volume: 1
+      pitch: 1.25
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: End Overload
+    sounds:
+    - clip: {fileID: 8300000, guid: 4a62841520242954da899e40a58f5679, type: 3}
+      volume: 1
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+    - clip: {fileID: 8300000, guid: 47bc2177e4f66304fa679a5030d22ff2, type: 3}
+      volume: 1
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+    - clip: {fileID: 8300000, guid: ae8f74aa7ebb20f4d9669c3155baef9d, type: 3}
+      volume: 1
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Impact_Rock_Small
+    sounds:
+    - clip: {fileID: 8300000, guid: 3ffb6fc131f86a24884795610a899539, type: 3}
+      volume: 0.75
+      pitch: 0.8
+      randomPitchVariation: 0.2
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+    - clip: {fileID: 8300000, guid: a24d71e6cf177e548a8d7b60becb75e8, type: 3}
+      volume: 0.75
+      pitch: 0.8
+      randomPitchVariation: 0.2
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+    - clip: {fileID: 8300000, guid: d69a326805154294896cef808440c3a3, type: 3}
+      volume: 0.75
+      pitch: 0.8
+      randomPitchVariation: 0.2
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Impact_Rock_Normal
+    sounds:
+    - clip: {fileID: 8300000, guid: 821dab0016288d3429fbcaf3051adda2, type: 3}
+      volume: 0.75
+      pitch: 1
+      randomPitchVariation: 0.2
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+    - clip: {fileID: 8300000, guid: d08f078855bfc544dae56eb44cb224a6, type: 3}
+      volume: 0.75
+      pitch: 1
+      randomPitchVariation: 0.2
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Impact_Rock_Big
+    sounds:
+    - clip: {fileID: 8300000, guid: b21def8fe0b07b942976fbdc709c983a, type: 3}
+      volume: 0.75
+      pitch: 1
+      randomPitchVariation: 0.2
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+    - clip: {fileID: 8300000, guid: 4348a763f95b4f94b844384e515bbd26, type: 3}
+      volume: 0.75
+      pitch: 1
+      randomPitchVariation: 0.2
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Impact_Beam
+    sounds:
+    - clip: {fileID: 8300000, guid: 03ad12d2c40c6c943971864bd1d94ed1, type: 3}
+      volume: 0.2
+      pitch: 1.1
+      randomPitchVariation: 0.4
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Death
+    sounds:
+    - clip: {fileID: 8300000, guid: 53003f20cf85f97489e370e1eae579fd, type: 3}
+      volume: 0.7
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: UI_Interact
+    sounds:
+    - clip: {fileID: 8300000, guid: a3851fea7cab7e548a536d9742638c2c, type: 3}
+      volume: 0.8
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+    - clip: {fileID: 8300000, guid: 4083835526d859847bb35a217881c764, type: 3}
+      volume: 0.8
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: UI_Confirm
+    sounds:
+    - clip: {fileID: 8300000, guid: e0670bf9966b35844b0b1d9d0ff08d20, type: 3}
+      volume: 0.9
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: UI_Cancel
+    sounds:
+    - clip: {fileID: 8300000, guid: 2f30f2978504b7a47963750db45d0211, type: 3}
+      volume: 0.5
+      pitch: 0.9
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: UI_Analog
+    sounds:
+    - clip: {fileID: 8300000, guid: 1fbdd48733f3923498286e8a864ef7e8, type: 3}
+      volume: 1
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: UI_Pause
+    sounds:
+    - clip: {fileID: 8300000, guid: 71cfc10c8eedda941922212bb91a7311, type: 3}
+      volume: 0.9
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Screen_Down
+    sounds:
+    - clip: {fileID: 8300000, guid: a0a316fec0da8404db397ef6677b2bf2, type: 3}
+      volume: 0.85
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Screen_Up
+    sounds:
+    - clip: {fileID: 8300000, guid: aea1433ba5731aa41a443ec1b58ac3e3, type: 3}
+      volume: 0.85
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+  - colectionName: Screen_Move
+    sounds:
+    - clip: {fileID: 8300000, guid: 49e9717ca90418b4ba8789f238bfcd04, type: 3}
+      volume: 0.85
+      pitch: 0.85
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+--- !u!114 &1567343292423343884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567343292423343887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33a05c65c824fc4c81f1dd95c3e4fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromPool: 0
+  OnGameSetMenu:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1567343292423343886}
+        m_MethodName: SetCurrentTheme
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Menu
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnGameSetStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1567343292423343886}
+        m_MethodName: SetCurrentTheme
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Game
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnGameSetPlaying:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGameSetFrozen:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGameSetPaused:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGameSetResuming:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGameSetResurrecting:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGameSetGameOver:
+    m_PersistentCalls:
+      m_Calls: []

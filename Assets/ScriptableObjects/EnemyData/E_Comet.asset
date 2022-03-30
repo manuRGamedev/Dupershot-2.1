@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e87dc915d222de41b58848f5e4c0c68, type: 3}
+  m_Name: E_Comet
+  m_EditorClassIdentifier: 
+  name: Comet
+  isAsteroid: 1
+  enemyPrefab: {fileID: 3912402368141090636, guid: 6f48886c2157bc5428b921c116c8a460,
+    type: 3}
+  particlesPrefab: {fileID: 467726099773153709, guid: a40af8200680e5740b2c7f8d316a8908,
+    type: 3}
+  probabilityValue: -5
+  numberOfInstances: 30
+  spaceInPool: 4
+  enemyContainer: {fileID: 0}
+  probabilityStartValue: 100
+  probabilityIncreaseValue: 50
+  maxProbabilityIncreaseValue: 10
+  probabilityDescreaseValue: 35
+  restrictedRounds: 2
+  probabilityIncreaseLevelUpValue: 0.75
