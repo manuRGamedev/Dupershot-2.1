@@ -8,7 +8,7 @@ public class Chaser : Enemy
    
     [SerializeField] Transform rotator;
     Transform target;
-    [SerializeField] Animator chaserAnim;
+    //[SerializeField] Animator chaserAnim;
 
     [Header("Movement Stats")]
     [SerializeField] float minTurnSpeed = 15f;
@@ -26,14 +26,12 @@ public class Chaser : Enemy
     // Update is called once per frame
     protected override void Update()
     {
+        //Anima el enemigo en función de la animación
+        //chaserAnim.SetFloat("HorizontalSpeed", moveDir.x);
+        //chaserAnim.SetFloat("VerticalSpeed", moveDir.y);
+
         //Define su dirección de movimiento
         SetMoveDirection();
-
-        //Anima el enemigo en función de la animación
-        chaserAnim.SetFloat("HorizontalSpeed", moveDir.x);
-        chaserAnim.SetFloat("VerticalSpeed", moveDir.y);
-
-
 
         if (isPlaying)
         {

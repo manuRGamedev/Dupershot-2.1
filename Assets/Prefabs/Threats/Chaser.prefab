@@ -4846,7 +4846,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3912402368011818818}
   - component: {fileID: 7587489121353652130}
-  - component: {fileID: 4610182248574666926}
   m_Layer: 0
   m_Name: Visuals
   m_TagString: Untagged
@@ -4861,12 +4860,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3912402368011818819}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.125, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 3912402368141090638}
-  m_RootOrder: 0
+  m_Father: {fileID: 3912402368536863220}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7587489121353652130
 SpriteRenderer:
@@ -4907,7 +4906,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 9598dda8088084f4ebb900d065d52f06, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c517bd43af2e0a7439dc885b67a91407, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4918,25 +4917,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4610182248574666926
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3912402368011818819}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 80f4eba9183a2a041a46b5cc72645016, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3912402368141090636
 GameObject:
   m_ObjectHideFlags: 0
@@ -4968,7 +4948,6 @@ Transform:
   m_LocalPosition: {x: 20, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3912402368011818818}
   - {fileID: 3912402368536863220}
   - {fileID: 6517614836811861200}
   - {fileID: 3684109072609663474}
@@ -4992,7 +4971,7 @@ MonoBehaviour:
   movementSpeed: 3.25
   spriteContainer: {fileID: 7587489121353652130}
   rotator: {fileID: 3912402368536863220}
-  chaserAnim: {fileID: 4610182248574666926}
+  chaserAnim: {fileID: 0}
   minTurnSpeed: 0
   maxTurnSpeed: 16.125
   minDistance: 4.15
@@ -5176,8 +5155,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 269936030021791657}
+  - {fileID: 3912402368011818818}
   m_Father: {fileID: 3912402368141090638}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7758382048154412168
 GameObject:
@@ -5208,7 +5188,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3912402368141090638}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &6815534245427846749
 CircleCollider2D:
@@ -5260,7 +5240,7 @@ Transform:
   m_Children:
   - {fileID: 1990905465032312055}
   m_Father: {fileID: 3912402368141090638}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4556042099562141669
 MonoBehaviour:
