@@ -82,6 +82,8 @@ public class PlayerData
     public int DupershotsMade;
     public int maxComboWhenDupershot;
 
+    public float bestTime;
+
     private int Compare(int oldValue, int newValue)
     {
         if (oldValue >= newValue)
@@ -94,7 +96,19 @@ public class PlayerData
         }
     }
 
-    
+    private float CompareFloat(float oldValue, float newValue)
+    {
+        if (oldValue >= newValue)
+        {
+            return oldValue;
+        }
+        else
+        {
+            return newValue;
+        }
+    }
+
+
     /// <summary>
     /// Constructor que se emplea cuando no hay ningun dato.
     /// </summary>
@@ -110,6 +124,8 @@ public class PlayerData
 
         DupershotsMade = 0;
         maxComboWhenDupershot = 0;
+
+        bestTime = 0f;
     }
     
     public PlayerData(ScoreManager score)
@@ -124,6 +140,8 @@ public class PlayerData
 
         DupershotsMade += score.duperShotsMade;
         maxComboWhenDupershot= Compare(maxComboWhenDupershot, score.maxComboWhenDupershot);
+
+        bestTime = CompareFloat(bestTime, score.gameTime);
     }
 }
 
