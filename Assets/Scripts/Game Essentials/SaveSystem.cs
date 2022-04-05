@@ -130,7 +130,7 @@ public class PlayerData
     
     public PlayerData(ScoreManager score)
     {
-        gamesPlayed++;
+        gamesPlayed = gamesPlayed + 1;
 
         solidHighscore = Compare(solidHighscore, score.solidHighscore);
         maxCombo = Compare(maxCombo, score.maxComboHighscore);
