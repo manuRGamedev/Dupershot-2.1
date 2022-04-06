@@ -24,6 +24,8 @@ public class EnableGroupProperty : MonoBehaviour
 
     public void SetGroupEnabled(int value)
     {
+        ObjectGroup selected = null;
+
         if (value >= objectGroups.Length) { value = 0; }
         else if (value < 0) { value = objectGroups.Length - 1; }
 
@@ -31,19 +33,24 @@ public class EnableGroupProperty : MonoBehaviour
 
         for (int i = 0; i < objectGroups.Length; i++)
         {
-            if (i == value)
-            {
-                foreach (GameObject g in objectGroups[i].objects)
-                {
-                    g.SetActive(true);
-                }                
-            }
-            else
+            if (i != value)
             {
                 foreach (GameObject g in objectGroups[i].objects)
                 {
                     g.SetActive(false);
-                }
+                }                
+            }
+            else
+            {
+                selected = objectGroups[i];
+            }
+        }
+
+        if (selected != null)
+        {
+            foreach (GameObject g in selected.objects)
+            {
+                g.SetActive(true);
             }
         }
     }
