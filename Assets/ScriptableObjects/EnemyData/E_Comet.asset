@@ -18,13 +18,13 @@ MonoBehaviour:
     type: 3}
   particlesPrefab: {fileID: 467726099773153709, guid: a40af8200680e5740b2c7f8d316a8908,
     type: 3}
-  probabilityValue: -5
+  probabilityValue: -30
   numberOfInstances: 30
   spaceInPool: 4
   enemyContainer: {fileID: 0}
-  probabilityStartValue: 100
-  probabilityIncreaseValue: 50
+  probabilityStartValue: -30
+  probabilityIncreaseValue: 0.85
   maxProbabilityIncreaseValue: 10
-  probabilityDescreaseValue: 35
+  probabilityDescreaseValue: 30
   restrictedRounds: 2
   probabilityIncreaseLevelUpValue: 0.75
