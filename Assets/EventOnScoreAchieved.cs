@@ -6,8 +6,10 @@ using UnityEngine.Events;
 public class EventOnScoreAchieved : MonoBehaviour
 {
     [SerializeField] UnityEvent OnScoreReached;
-    int[] objectives;
-    int objectiveValue;
+    [SerializeField] int[] objectives;
+    [SerializeField] int objectiveValue;
+
+    [SerializeField] HUDManager hud;
     ScoreManager scoreManager;
 
     private void Start()
@@ -27,6 +29,8 @@ public class EventOnScoreAchieved : MonoBehaviour
             objectiveValue++;
             OnScoreReached.Invoke();
         }
+
+        hud.UpdatePowerupProgress(objectiveValue, objectives[objectiveValue], (objectiveValue - 1) < 0 ? 0 : objectives[objectiveValue - 1]);
     }
 
 }

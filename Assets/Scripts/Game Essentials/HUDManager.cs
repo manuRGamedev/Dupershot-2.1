@@ -29,6 +29,11 @@ public class HUDManager : MonoBehaviour
     [Header("Cuenta atrás")]
     [SerializeField] TMP_Text countDownText;
 
+    [Header("Progreso dupershot")]
+    [SerializeField] string[] dupershotPowerValues;
+    [SerializeField] TMP_Text dupershotPowerValueText;
+    [SerializeField] TMP_Text dupershotProgressText;
+
     PlayerController player;
 
     [Header("Elementos Combo")]
@@ -110,6 +115,21 @@ public class HUDManager : MonoBehaviour
             UpdateCountDownText((int)GameManager.instance.countDownTimer);
         }
     }
+
+    public void UpdatePowerupProgress(int objectiveValue, int objectiveScore, int lastObjectiveScore)
+    {
+        Debug.Log(ScoreManager.instance.solidScore);
+
+        dupershotPowerValueText.text = dupershotPowerValues[objectiveValue];
+        if (objectiveValue < dupershotPowerValues.Length)
+        {
+            dupershotProgressText.text = "(" + (((ScoreManager.instance.solidScore - lastObjectiveScore) % (objectiveScore - lastObjectiveScore))/100).ToString() + "%)";
+        }
+        else
+        {
+            dupershotProgressText.text = "";
+        }        
+    }    
 
     public void UpdateDiegeticHeatState(float value)
     {

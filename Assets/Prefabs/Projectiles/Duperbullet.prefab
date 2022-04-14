@@ -472,13 +472,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgrades:
   - item: {fileID: 9116750572035327087}
-    scoreGoal: 150
+    scoreGoal: 20000
   - item: {fileID: 8525807375435221483}
-    scoreGoal: 150
+    scoreGoal: 75000
   - item: {fileID: 68907950101646363}
-    scoreGoal: 150
+    scoreGoal: 200000
   - item: {fileID: 8781813628384567353}
-    scoreGoal: 150
+    scoreGoal: 500000
 --- !u!1 &1843648856454402400
 GameObject:
   m_ObjectHideFlags: 0

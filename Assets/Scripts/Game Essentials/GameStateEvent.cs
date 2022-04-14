@@ -26,7 +26,7 @@ public class GameStateEvent : MonoBehaviour
 
     private void OnEnable()
     {
-        if (fromPool)
+        if (fromPool && GameManager.instance)
         {
             ExecuteGameStateEvent(GameManager.instance.state);
         }
