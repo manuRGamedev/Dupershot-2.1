@@ -28,5 +28,6 @@ public class ShowScores : MonoBehaviour
         string bestTime = string.Format(@"{0:mm\:ss\.ff}", ts);
         bestTimeText.text = bestTime;
         gamesPlayedText.text = current.gamesPlayed.ToString();
+        TotalDestroyedText.text = current.enemiesDestroyedTotal.ToString();
     }
 }

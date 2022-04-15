@@ -20,6 +20,7 @@ public class EventOnScoreAchieved : MonoBehaviour
     public void ResetObjective()
     {
         objectiveValue = 0;
+        hud.UpdatePowerupProgress(objectiveValue, objectives[objectiveValue], (objectiveValue - 1) < 0 ? 0 : objectives[objectiveValue - 1]);
     }
 
     public void CheckObjective()

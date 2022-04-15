@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c950a33693b476941afe7b07f1e0cbf3, type: 3}
   m_Name: Char_IceCream
   m_EditorClassIdentifier: 
-  name: Hel Lado Oscuro
-  description: 'Descubre el sabor del cosmos  el nuevo e ininteligible sabor a materia
-    oscura.
+  name: Cpt. Cool
+  description: 'After turning into a Dark Matter flavoured pile of ice cream, Captain
+    Cool became a dangerous cold blood renegade. He is always in space, so nothing
+    else can keep him solid.
+
+
 
 '
-  unlockCondition: Achieve a highscore of 50.000 points to unlock this character.
+  unlockCondition: Achieve 100.000 points in one game to unlock this character.
   displaySprite: {fileID: 21300000, guid: 711aa29d0961c7849b90e4d010bdf5dc, type: 3}
   lockedSprite: {fileID: 21300000, guid: 430eb0eb5a1978641b8308081f2e945f, type: 3}
   inGameAnimator: {fileID: 22100000, guid: 2a54fe9a1c10245468235307460600cd, type: 2}
   isUnlocked: 1
   unlockConditionType: 1
-  unlockConditionGoal: 50000
+  unlockConditionGoal: 100000

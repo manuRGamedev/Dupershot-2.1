@@ -9,7 +9,7 @@ public static class SaveSystem
     public static void SaveGame(ScoreManager score)
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "player.thicc";
+        string path = Application.persistentDataPath + "player.scores";
         FileStream stream = new FileStream(path, FileMode.Create);
 
         PlayerData data = new PlayerData(score);
@@ -21,7 +21,7 @@ public static class SaveSystem
     public static void SaveNewGame()
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "player.thicc";
+        string path = Application.persistentDataPath + "player.scores";
         FileStream stream = new FileStream(path, FileMode.Create);
 
         PlayerData data = new PlayerData();
@@ -32,7 +32,7 @@ public static class SaveSystem
 
     public static void EraseData()
     {
-        string path = Application.persistentDataPath + "player.thicc";
+        string path = Application.persistentDataPath + "player.scores";
 
         if (!File.Exists(path))
         {
@@ -50,7 +50,7 @@ public static class SaveSystem
 
     public static PlayerData LoadPlayer()
     {
-        string path = Application.persistentDataPath + "player.thicc";
+        string path = Application.persistentDataPath + "player.scores";
 
         if (!File.Exists(path))
         {
@@ -130,13 +130,13 @@ public class PlayerData
     
     public PlayerData(ScoreManager score)
     {
-        gamesPlayed = gamesPlayed + 1;
+        gamesPlayed = Compare(gamesPlayed, gamesPlayed + 1) ;
 
         solidHighscore = Compare(solidHighscore, score.solidHighscore);
         maxCombo = Compare(maxCombo, score.maxComboHighscore);
 
         enemiesDestroyedHighscore = Compare(enemiesDestroyedHighscore, score.hitHighscore);
-        enemiesDestroyedTotal += score.hitScore;
+        enemiesDestroyedTotal = Compare(enemiesDestroyedTotal ,enemiesDestroyedTotal + score.hitScore);
 
         DupershotsMade += score.duperShotsMade;
         maxComboWhenDupershot= Compare(maxComboWhenDupershot, score.maxComboWhenDupershot);

@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c950a33693b476941afe7b07f1e0cbf3, type: 3}
   m_Name: Char_Bunny
   m_EditorClassIdentifier: 
-  name: Bunny
-  description: "Conocedora de lo antiguo antes de que fuese antiguo. Odia la pizza
-    con zanahoria, pero ama la pizza con pi\xF1a."
-  unlockCondition: Defeat 25 enemies in one game to unlock this character.
+  name: Gabbit
+  description: After escaping from Arcane Space, Gabbit started dangerous journey
+    to keep expanding her knowledge. She hates carrot pizza, but loves pinapple pizza.
+  unlockCondition: Defeat 30 enemies in one game to unlock this character.
   displaySprite: {fileID: 21300000, guid: bd745b430ffee4a4c88070f99c4bfae8, type: 3}
   lockedSprite: {fileID: 21300000, guid: f8a8167ec7d380e408aba6a9464fca80, type: 3}
   inGameAnimator: {fileID: 22100000, guid: 8183ea009da808e4c89ad6a4a28629fd, type: 2}
   isUnlocked: 1
   unlockConditionType: 5
-  unlockConditionGoal: 25
+  unlockConditionGoal: 30
