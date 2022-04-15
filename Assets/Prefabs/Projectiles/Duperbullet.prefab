@@ -426,12 +426,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playOnEnable: 1
   soundsToCall:
-  - soundName: Dupershot Charge
-    delay: 0.25
   - soundName: Dupershot Release
-    delay: 0.95
-  - soundName: Dupershot Eco
-    delay: 1
+    delay: 0
 --- !u!114 &6552447594225552371
 MonoBehaviour:
   m_ObjectHideFlags: 0

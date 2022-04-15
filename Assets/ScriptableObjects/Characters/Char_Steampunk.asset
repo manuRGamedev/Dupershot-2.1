@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c950a33693b476941afe7b07f1e0cbf3, type: 3}
   m_Name: Char_Steampunk
   m_EditorClassIdentifier: 
-  name: (W)Mario
-  description: Es como Wario, pero para que no nos denuncien, lo llamaremos Mario.
-  unlockCondition: Achieve a highscore of 10.000 points to unlock this character.
+  name: Professor Smoke
+  description: 'Deadly and eco-friendly.
+
+    Smoke began a journey through the galaxy
+    to prove that those who accused his creations of antiquated were wrong.'
+  unlockCondition: Achieve a 50 COMBO to unlock this character.
   displaySprite: {fileID: 21300000, guid: 988e81746ad1cb9419f5634e0fa1a54a, type: 3}
   lockedSprite: {fileID: 21300000, guid: 4ab6fffd0fa42254e8f48a48eb970d6d, type: 3}
   inGameAnimator: {fileID: 22100000, guid: 5de5f2d8bdd43464b920df63f80ff4a2, type: 2}
   isUnlocked: 1
-  unlockConditionType: 1
-  unlockConditionGoal: 10000
+  unlockConditionType: 2
+  unlockConditionGoal: 50
