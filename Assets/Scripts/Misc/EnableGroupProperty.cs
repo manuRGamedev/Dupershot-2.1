@@ -14,8 +14,11 @@ public class EnableGroupProperty : MonoBehaviour
     void Start()
     {
         current = 0;
-
-        SetGroupEnabled(firstEnabledGroup);
+        if (setOnEnabled)
+        {
+            SetGroupEnabled(firstEnabledGroup);
+        }
+        
     }
 
     private void OnEnable()
