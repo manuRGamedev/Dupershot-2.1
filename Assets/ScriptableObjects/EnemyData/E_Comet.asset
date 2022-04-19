@@ -16,7 +16,7 @@ MonoBehaviour:
   isAsteroid: 1
   enemyPrefab: {fileID: 3912402368141090636, guid: 6f48886c2157bc5428b921c116c8a460,
     type: 3}
-  particlesPrefab: {fileID: 467726099773153709, guid: a40af8200680e5740b2c7f8d316a8908,
+  particlesPrefab: {fileID: 467726099773153709, guid: d702c861bc4f75941bd84149ad4f70bc,
     type: 3}
   probabilityValue: -30
   numberOfInstances: 30
