@@ -15,8 +15,8 @@ MonoBehaviour:
   name: Fred
   description: 'The classic, and the best.
 
-    Fred is not the smartest of it''s
-    class, but he is as good pilot as soda lover.'
+    Fred is not the smartest kid in class,
+    but he is as good pilot as soda lover.'
   unlockCondition: Achieve a super duper highscore to reveal this champ.
   displaySprite: {fileID: 21300000, guid: b0316b2ab763b944496e181d6197b7cf, type: 3}
   lockedSprite: {fileID: 0}

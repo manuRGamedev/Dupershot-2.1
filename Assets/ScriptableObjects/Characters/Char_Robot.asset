@@ -12,18 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c950a33693b476941afe7b07f1e0cbf3, type: 3}
   m_Name: Char_Robot
   m_EditorClassIdentifier: 
-  name: Robodolfo 5000
-  description: 'Unity, precision, prefection!
+  name: MKU-5000
+  description: 'This sophisticated cooking robot became tired of kitchens and decided
+    to add some modifications to it''s software.
 
-    Robodolfo is a ruthless protector
-    of justice.
-
-    He may look pretty serious, but actualy is one of the greatest
-    comedians in the galaxy.'
+    MKU-5000 loves it''s job!'
   unlockCondition: Achieve 30.000 points in one game to unlock this character.
   displaySprite: {fileID: 21300000, guid: 5c43e7ea01d34ac4bb815ee8ad614daf, type: 3}
   lockedSprite: {fileID: 21300000, guid: 0a99b3b142aee6340b74f6ad07e73655, type: 3}
   inGameAnimator: {fileID: 22100000, guid: 8128aacb81ff108418b5801eba218a81, type: 2}
-  isUnlocked: 1
+  isUnlocked: 0
   unlockConditionType: 1
   unlockConditionGoal: 30000

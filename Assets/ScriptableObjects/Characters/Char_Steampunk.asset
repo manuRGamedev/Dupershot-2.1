@@ -21,6 +21,6 @@ MonoBehaviour:
   displaySprite: {fileID: 21300000, guid: 988e81746ad1cb9419f5634e0fa1a54a, type: 3}
   lockedSprite: {fileID: 21300000, guid: 4ab6fffd0fa42254e8f48a48eb970d6d, type: 3}
   inGameAnimator: {fileID: 22100000, guid: 5de5f2d8bdd43464b920df63f80ff4a2, type: 2}
-  isUnlocked: 1
+  isUnlocked: 0
   unlockConditionType: 2
   unlockConditionGoal: 50
