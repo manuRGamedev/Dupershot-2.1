@@ -19,6 +19,7 @@ public class CharacterManager : MonoBehaviour
 
     [Header("Character Swap Variables")]
     [SerializeField] Animator playerCharacterAnimator;
+    [SerializeField] EnableGroupProperty fuelGroup;
 
     [Header("Visual Feedback")]
     [SerializeField] GameObject UnlockAnnounceObject;
@@ -112,7 +113,9 @@ public class CharacterManager : MonoBehaviour
 
     public void SetCurrentCharacter()
     {
-        playerCharacterAnimator.runtimeAnimatorController = GameCharacters[PlayerPrefs.GetInt("SelectedCharacter")].inGameAnimator;
+        int selected = PlayerPrefs.GetInt("SelectedCharacter");
+        playerCharacterAnimator.runtimeAnimatorController = GameCharacters[selected].inGameAnimator;
+        fuelGroup.SetGroupEnabled(selected);
     }
 
     #endregion

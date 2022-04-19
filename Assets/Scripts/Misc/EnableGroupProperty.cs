@@ -6,6 +6,7 @@ public class EnableGroupProperty : MonoBehaviour
 {
     [Tooltip("Grupo de objetos que estará habilidado al comienzo. En caso de usar un valor menor que cero, no se hablilitará ninguno")]
     [SerializeField] int firstEnabledGroup = -1;
+    [SerializeField] bool setOnEnabled = true;
     int current = 0;
     [SerializeField] ObjectGroup[] objectGroups;
 
@@ -19,7 +20,10 @@ public class EnableGroupProperty : MonoBehaviour
 
     private void OnEnable()
     {
-        SetGroupEnabled(firstEnabledGroup);
+        if (setOnEnabled)
+        {
+            SetGroupEnabled(firstEnabledGroup);
+        }
     }
 
     public void SetGroupEnabled(int value)
