@@ -5843,6 +5843,22 @@ MonoBehaviour:
       loop: 0
       probability: 1
       source: {fileID: 0}
+  - colectionName: Impact_Metal
+    sounds:
+    - clip: {fileID: 8300000, guid: a7eb13c07bdbe824681b4e5522c3e075, type: 3}
+      volume: 0.85
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
+    - clip: {fileID: 8300000, guid: 60d684b1336300449a2cafb7e3b7c4be, type: 3}
+      volume: 0.85
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
   - colectionName: Impact_Rock_Small
     sounds:
     - clip: {fileID: 8300000, guid: 3ffb6fc131f86a24884795610a899539, type: 3}
