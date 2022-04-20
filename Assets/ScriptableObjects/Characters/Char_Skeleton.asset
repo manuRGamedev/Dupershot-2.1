@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c950a33693b476941afe7b07f1e0cbf3, type: 3}
+  m_Name: Char_Skeleton
+  m_EditorClassIdentifier: 
+  name: Madison Scully
+  description: "Scully died in a top secret mission years ago. Now she wanders the
+    galaxy in search of new things to do, like, for example, destroying asteroids.
+    \nSeems fun."
+  unlockCondition: Achieve 100.000 points in one game to unlock this character.
+  displaySprite: {fileID: 21300000, guid: 704fbcff8d58a31479d4ea040636046e, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 894bbb29ae8176a43a17647b2a972fd0, type: 3}
+  inGameAnimator: {fileID: 22100000, guid: 789a65de9c931ba4086bccf7549a0afb, type: 2}
+  isUnlocked: 1
+  unlockConditionType: 6
+  unlockConditionGoal: 100000
