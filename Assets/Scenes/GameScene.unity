@@ -5770,6 +5770,15 @@ MonoBehaviour:
       loop: 0
       probability: 1
       source: {fileID: 0}
+  - colectionName: Dupershot Powerup
+    sounds:
+    - clip: {fileID: 8300000, guid: f1adec01c3c2d6342b448f7f0f6f3e57, type: 3}
+      volume: 0.85
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
   - colectionName: Dupershot Eco
     sounds:
     - clip: {fileID: 8300000, guid: b1b0ddcbec9baed4f84e17b4ad7270e1, type: 3}
@@ -66071,6 +66080,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 52436313}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Dupershot Powerup
+          m_BoolArgument: 0
+        m_CallState: 2
   objectives: 204e0000f8240100400d030020a10700
   objectiveValue: 0
   hud: {fileID: 1707152735}
@@ -74509,7 +74529,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerState: 0
-  autoChargeDupershot: 1
+  autoChargeDupershot: 0
   movementSpeed: 4
   startMovementSpeed: 4
   movementState: 0
