@@ -19080,7 +19080,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5332456629710948187
 Transform:
   m_ObjectHideFlags: 0
@@ -19728,7 +19728,7 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0, y: -0.25, z: 0}
+    m_Position: {x: 0, y: -0.3, z: 0}
     m_Rotation: {x: 90, y: 180, z: 0}
     m_Scale: {x: 0.25218374, y: 0.14333007, z: 0.24447846}
     placementMode: 0

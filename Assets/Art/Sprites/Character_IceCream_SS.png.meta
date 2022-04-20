@@ -249,10 +249,10 @@ TextureImporter:
       name: Character_IceCream_SS_5
       rect:
         serializedVersion: 2
-        x: 305
-        y: 0
-        width: 61.833332
-        height: 64
+        x: 313
+        y: 6
+        width: 43
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
