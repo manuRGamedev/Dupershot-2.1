@@ -269,6 +269,8 @@ GameObject:
   - component: {fileID: 3536863096857202474}
   - component: {fileID: 6552447594225552371}
   - component: {fileID: 6661473112050707715}
+  - component: {fileID: 8530573074591340981}
+  - component: {fileID: -5206690547973126811}
   m_Layer: 13
   m_Name: Duperbullet
   m_TagString: DuperBullet
@@ -475,6 +477,54 @@ MonoBehaviour:
     scoreGoal: 200000
   - item: {fileID: 8781813628384567353}
     scoreGoal: 500000
+--- !u!114 &8530573074591340981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757112764575191570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bf6a3d95f360ec4f89f19b20a6ca442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTrigger: 1
+  triggerTags:
+  - Enemy
+  OnColliderEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -5206690547973126811}
+        m_MethodName: StackImpact
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnColliderExit:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-5206690547973126811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757112764575191570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73015752639bd9449aa3ed9d8f93245a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxImpactValue: 5
+  minPitch: 0.6
+  maxPitch: 2
+  soundToCall: Dupershot Impact
 --- !u!1 &1843648856454402400
 GameObject:
   m_ObjectHideFlags: 0

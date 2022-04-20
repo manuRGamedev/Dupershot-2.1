@@ -5752,10 +5752,19 @@ MonoBehaviour:
       loop: 0
       probability: 1
       source: {fileID: 0}
+  - colectionName: Dupershot Impact
+    sounds:
+    - clip: {fileID: 8300000, guid: ec87eecae94408f44b0ebdab52896656, type: 3}
+      volume: 0.9
+      pitch: 1
+      randomPitchVariation: 0
+      loop: 0
+      probability: 1
+      source: {fileID: 0}
   - colectionName: Dupershot Release
     sounds:
     - clip: {fileID: 8300000, guid: d1aba186720f2fb44b9cb1c5b045439b, type: 3}
-      volume: 0.85
+      volume: 0.92
       pitch: 1
       randomPitchVariation: 0
       loop: 0
@@ -19172,7 +19181,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216469265}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1.18, z: 1}
   m_Children:
@@ -19182,8 +19191,8 @@ RectTransform:
   - {fileID: 684235607}
   - {fileID: 233323547}
   - {fileID: 1106393234}
-  m_Father: {fileID: 1587610646}
-  m_RootOrder: 4
+  m_Father: {fileID: 1999140852}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -25092,7 +25101,7 @@ RectTransform:
   m_Children:
   - {fileID: 204733646}
   m_Father: {fileID: 706052007}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -44164,6 +44173,7 @@ RectTransform:
   - {fileID: 836916421}
   - {fileID: 1587610646}
   - {fileID: 1992629392}
+  - {fileID: 1999140852}
   - {fileID: 286964006}
   - {fileID: 796109710}
   - {fileID: 1564589852}
@@ -45749,7 +45759,7 @@ RectTransform:
   - {fileID: 821875188}
   - {fileID: 293509690}
   m_Father: {fileID: 706052007}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -58130,7 +58140,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906498268}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: -1, y: 1.18, z: 1}
   m_Children:
@@ -58138,8 +58148,8 @@ RectTransform:
   - {fileID: 1922805945}
   - {fileID: 784899975}
   - {fileID: 59195692}
-  m_Father: {fileID: 1587610646}
-  m_RootOrder: 5
+  m_Father: {fileID: 1999140852}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -74109,7 +74119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerState: 0
-  autoChargeDupershot: 0
+  autoChargeDupershot: 1
   movementSpeed: 4
   startMovementSpeed: 4
   movementState: 0
@@ -87305,7 +87315,7 @@ RectTransform:
   - {fileID: 1358230403}
   - {fileID: 948467136}
   m_Father: {fileID: 706052007}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -88048,8 +88058,6 @@ RectTransform:
   - {fileID: 1128728200}
   - {fileID: 2112334456}
   - {fileID: 1678762866}
-  - {fileID: 216469266}
-  - {fileID: 906498269}
   m_Father: {fileID: 706052007}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -107665,6 +107673,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1347581815}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1999140851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1999140852}
+  m_Layer: 5
+  m_Name: Lateral Deco
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1999140852
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999140851}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 216469266}
+  - {fileID: 906498269}
+  m_Father: {fileID: 706052007}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2003973080
 GameObject:
   m_ObjectHideFlags: 0
