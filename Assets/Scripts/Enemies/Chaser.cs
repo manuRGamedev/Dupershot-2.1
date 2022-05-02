@@ -23,6 +23,8 @@ public class Chaser : Enemy
         player = PlayerController.instance;
         moveDir = Vector2.up;
     }
+    
+
     // Update is called once per frame
     protected override void Update()
     {
@@ -30,11 +32,12 @@ public class Chaser : Enemy
         //chaserAnim.SetFloat("HorizontalSpeed", moveDir.x);
         //chaserAnim.SetFloat("VerticalSpeed", moveDir.y);
 
-        //Define su dirección de movimiento
-        SetMoveDirection();
 
         if (isPlaying)
         {
+            //Define su dirección de movimiento
+            SetMoveDirection();
+
             //player = PlayerController.instance;
             worldMoveDir = (-1) * player.moveDir * player.movementSpeed;
             transform.Translate((moveDir * currentMovementSpeed + worldMoveDir) * Time.deltaTime);
@@ -46,7 +49,7 @@ public class Chaser : Enemy
         if (player == null) { player = PlayerController.instance; }
         Vector3 aim = player.transform.position - transform.position;
         rotator.eulerAngles = new Vector3(0,0,360 * Mathf.Atan2(aim.y, aim.x)/(2 * Mathf.PI));
-        Debug.Log("Angle = " + (360 * Mathf.Atan2(aim.y, aim.x) / (2 * Mathf.PI)).ToString());
+        moveDir = rotator.up.normalized;
     }
 
     protected void SetMoveDirection()

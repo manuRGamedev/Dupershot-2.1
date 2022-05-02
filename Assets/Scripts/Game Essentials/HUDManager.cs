@@ -121,7 +121,7 @@ public class HUDManager : MonoBehaviour
         Debug.Log(ScoreManager.instance.solidScore);
 
         dupershotPowerValueText.text = dupershotPowerValues[objectiveValue];
-        if (objectiveValue < dupershotPowerValues.Length)
+        if (objectiveValue < dupershotPowerValues.Length - 1)
         {
             dupershotProgressText.text = "(" + ((int)(((float)(ScoreManager.instance.solidScore - lastObjectiveScore) / (objectiveScore - lastObjectiveScore))*100)).ToString() + "%)";
         }

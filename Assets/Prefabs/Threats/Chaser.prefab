@@ -4825,15 +4825,15 @@ SpriteRenderer:
   m_SortingLayerID: 1688338379
   m_SortingLayer: 4
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: d9961f798067d7548bee75cb09d52520, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2dbc66de1a8b38240a33225ef8868ba8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.1}
+  m_Size: {x: 0.5, y: 0.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &3912402368011818819
@@ -4905,7 +4905,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c517bd43af2e0a7439dc885b67a91407, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4971,7 +4971,6 @@ MonoBehaviour:
   movementSpeed: 3.25
   spriteContainer: {fileID: 7587489121353652130}
   rotator: {fileID: 3912402368536863220}
-  chaserAnim: {fileID: 0}
   minTurnSpeed: 0
   maxTurnSpeed: 16.125
   minDistance: 4.15
@@ -5254,7 +5253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ae10d285b70b047a22c74a797cd3dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indicatorSprite: {fileID: 21300000, guid: d9961f798067d7548bee75cb09d52520, type: 3}
+  indicatorSprite: {fileID: 21300000, guid: 2dbc66de1a8b38240a33225ef8868ba8, type: 3}
   spriteRenderer: {fileID: 6048841530248391238}
   indicatorColor: {r: 0.9292453, g: 0.95073104, b: 1, a: 1}
   indicatorTransform: {fileID: 1990905465032312055}

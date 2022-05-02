@@ -522,7 +522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxImpactValue: 5
-  minPitch: 0.6
+  minPitch: 0.9
   maxPitch: 2
   soundToCall: Dupershot Impact
 --- !u!1 &1843648856454402400

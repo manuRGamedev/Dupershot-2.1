@@ -435,6 +435,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1567343292423343886, guid: e1736926e7d4c954a8d64f9aa0d7101c,
+        type: 3}
+      propertyPath: soundCollections.Array.data[2].sounds.Array.data[0].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567343292423343886, guid: e1736926e7d4c954a8d64f9aa0d7101c,
+        type: 3}
+      propertyPath: soundCollections.Array.data[2].sounds.Array.data[0].volume
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567343292423343886, guid: e1736926e7d4c954a8d64f9aa0d7101c,
+        type: 3}
+      propertyPath: soundCollections.Array.data[2].sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d1aba186720f2fb44b9cb1c5b045439b, type: 3}
     - target: {fileID: 1567343292423343887, guid: e1736926e7d4c954a8d64f9aa0d7101c,
         type: 3}
       propertyPath: m_Name
@@ -1811,7 +1826,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: End Overload
+          m_StringArgument: Dupershot Release
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1041485299
@@ -3214,7 +3229,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750637562}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ac7d3aeea81a3a4eae329d93679c4de, type: 3}
   m_Name: 
@@ -3222,7 +3237,7 @@ MonoBehaviour:
   phraseText: {fileID: 467964496}
   textDuration: 0.8
   phrases:
-  - Cooling down engine...
+  - Warming up engine...
   - Loading plasma ammo...
   - Scanning proximities...
   - Turning on cabin lights...
