@@ -253,7 +253,7 @@ public class PlayerController : MonoBehaviour
 
     public void AttemptDupershot()
     {
-        if (dupershotValue >= 100)
+        if (isPlaying &&dupershotValue >= 100)
         {
             MakeDupershot();
         }
@@ -499,7 +499,7 @@ public class PlayerController : MonoBehaviour
                 isPlaying = false;
                 break;
             case GameState.GameOver:
-                isPlaying = true;
+                isPlaying = false;
                 break;
         }
     }
