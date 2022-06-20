@@ -6,6 +6,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem
 {
+    /* SISTEMA ANTIGUO
     public static void SaveGame(ScoreManager score)
     {
         BinaryFormatter formatter = new BinaryFormatter();
@@ -65,24 +66,105 @@ public static class SaveSystem
 
         return data;
     }
-}
+*/
 
+    public static void SaveGame(ScoreManager score)
+    {
+        PlayerData data = new PlayerData(score);
+    }
+
+    public static void SaveNewGame()
+    {
+        PlayerData data = new PlayerData(false);
+    }
+
+    public static void EraseData()
+    {
+        PlayerData data = new PlayerData(false);
+    }
+
+    public static PlayerData LoadPlayer()
+    {
+        PlayerData data = new PlayerData(true);
+        return data;
+    }
+}
 
 [System.Serializable]
 public class PlayerData
 {
-    public int gamesPlayed;
+    public int gamesPlayed
+    {
+        get
+        {
+            return PlayerPrefs.GetInt("Scores_GamesPlayed");
+        }
+        set
+        {
+            PlayerPrefs.SetInt("Scores_GamesPlayed", value);
+        }
+    } 
 
-    public int solidHighscore;
-    public int maxCombo;
+    public int solidHighscore
+    {
+        get
+        {
+            return PlayerPrefs.GetInt("Scores_SolidHighscore");
+        }
+        set
+        {
+            PlayerPrefs.SetInt("Scores_SolidHighscore", value);
+        }
+    }
+    public int maxCombo 
+    {
+        get
+        {
+            return PlayerPrefs.GetInt("Scores_MaxCombo");
+        }
+        set
+        {
+            PlayerPrefs.SetInt("Scores_MaxCombo", value);
+        }
+    }
 
-    public int enemiesDestroyedHighscore;
-    public int enemiesDestroyedTotal;
+    public int enemiesDestroyedHighscore
+    {
+        get
+        {
+            return PlayerPrefs.GetInt("Scores_EnemiesDestroyedHighscore");
+        }
+        set
+        {
+            PlayerPrefs.SetInt("Scores_EnemiesDestroyedHighscore", value);
+        }
+    }
+    public int enemiesDestroyedTotal
+    {
+        get
+        {
+            return PlayerPrefs.GetInt("Scores_EnemiesDestroyedTotal");
+        }
+        set
+        {
+            PlayerPrefs.SetInt("Scores_EnemiesDestroyedTotal", value);
+        }
+    }
 
     public int DupershotsMade;
     public int maxComboWhenDupershot;
 
-    public float bestTime;
+    public float bestTime
+    {
+        get
+        {
+            return PlayerPrefs.GetFloat("Scores_BestTime");
+        }
+        set
+        {
+            PlayerPrefs.SetFloat("Scores_BestTime", value);
+        }
+    }
 
     private int Compare(int oldValue, int newValue)
     {
@@ -112,7 +194,7 @@ public class PlayerData
     /// <summary>
     /// Constructor que se emplea cuando no hay ningun dato.
     /// </summary>
-    public PlayerData()
+    public void EraseData()
     {
         gamesPlayed = 0;
 
@@ -127,7 +209,42 @@ public class PlayerData
 
         bestTime = 0f;
     }
-    
+
+    public PlayerData(bool value)
+    {
+        if (value)
+        {
+            gamesPlayed = PlayerPrefs.GetInt("Scores_GamesPlayed");
+
+            solidHighscore = PlayerPrefs.GetInt("Scores_SolidHighscore");
+            maxCombo = PlayerPrefs.GetInt("Scores_MaxCombo");
+
+            enemiesDestroyedHighscore = PlayerPrefs.GetInt("Scores_EnemiesDestroyedHighscore");
+            enemiesDestroyedTotal = PlayerPrefs.GetInt("Scores_EnemiesDestroyedTotal");
+
+            DupershotsMade = 0;
+            maxComboWhenDupershot = 0;
+
+            bestTime = PlayerPrefs.GetFloat("Scores_BestTime");
+        }
+        else
+        {
+            gamesPlayed = 0;
+
+            solidHighscore = 0;
+            maxCombo = 0;
+
+            enemiesDestroyedHighscore = 0;
+            enemiesDestroyedTotal = 0;
+
+            DupershotsMade = 0;
+            maxComboWhenDupershot = 0;
+
+            bestTime = 0f;
+        }
+    }
+
+
     public PlayerData(ScoreManager score)
     {
         gamesPlayed = Compare(gamesPlayed, gamesPlayed + 1) ;
